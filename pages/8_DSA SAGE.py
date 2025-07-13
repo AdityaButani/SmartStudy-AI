@@ -458,8 +458,8 @@ if google_api_key:
 
 # Define your model configurations
 MODELS = {
-    'DSA Sage-01':'tunedModels/x-dsa-sage01-revsv3rmfz8l',
-    'DSA Sage': 'gemini-1.5-pro',
+    'DSA Sage-01':'tunedmodel',
+    'Gemini 1.5 Pro': 'gemini-1.5-pro',
     'Gemini 1.5 Flash': 'gemini-1.5-flash',
     'Llama 3 70B': 'llama3-70b-8192',
     'Llama 3 8B': 'llama3-8b-8192',
@@ -473,7 +473,7 @@ MODELS = {
 # Model provider mapping
 MODEL_PROVIDERS = {
     'DSA Sage-01': 'gemini',
-    'DSA Sage': 'gemini',
+    'Gemini 1.5 Pro': 'gemini',
     'Gemini 1.5 Flash': 'gemini',
     'Llama 3 70B': 'groq',
     'Llama 3 8B': 'groq',
